@@ -18,6 +18,7 @@ def predict(file):
   resultado = arreglo[0]
   respuesta=np.argmax(resultado)
 
+  #Solo dos clases en este momento
   if respuesta==0: 
     print('10')
   elif respuesta==1:
